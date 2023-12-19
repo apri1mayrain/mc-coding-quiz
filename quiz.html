@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel='stylesheet' href='./assets/css/style.css'></link>
+    <title>Quiz - JavaScript Fundamentals</title>
+</head>
+
+<body>
+    <!-- Header contains highscore and timer -->
+    <header>
+        <div><a href='highscores.html'>View Highscores</a></div>
+        <div id ='countdown'><p>Timer: 0</p></div>
+    </header>
+    <!-- Main contains multiple choice questions, hint (correct/wrong), and highscore submission -->
+    <main>
+        <section id='quiz'>
+            <h1 id='question'></h1>
+            <div id='answer'></div>
+        </section>
+        <section>
+            <h2 id="hint" class="hint hide"></h2>
+        </section>
+        <section class='score hide'>
+            <h2>All Done!</h2>
+            <p id='score'></p>
+            <p>Enter your name: <input type='text' id='initals' maxlength='3'/></p>
+            <button id="submit">Submit</button>
+        </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
