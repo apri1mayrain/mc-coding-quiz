@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Play', sans-serif;
+}
+
+body {
+    background: #ede0d4;
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    color: #083d77;
+}
+
+header {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 25px auto;
+}
+
+main {
+    text-align: center;
+    margin-top: 5%;
+}
+
+h1, h2 {
+    font-size: 250%;
+    margin: 5% auto;
+}
+
+p {
+    font-size: 150%;
+    margin-bottom: 5%;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    background: #083d77;
+    color: #ede0d4;
+    font-size: 150%;
+    border-radius: 5px;
+    padding: 1% 2%;
+}
+
+a {
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #062e58;
+}
+
+#countdown {
+    font-size: 150%;
+}
+
+#question {
+    font-size: 150%;
+}
+
+#answer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 0 25%;
+}
+
+.hide {
+    display: none;
+}
+
+#btn {
+    margin: 2% 0;
+}
+
+li {
+    text-align: center;
+    list-style: decimal inside;
+    font-size: 150%;
+    margin: 5% auto;
+}
+
+#clear {
+    margin-left: 3%;
+    font-size: 225%;
+}
+
+@media screen and (max-width: 425px) {
+    #answer, ol {
+        margin: 0;
+    }
+    li {
+        font-size: 130%;
+    }
+}
